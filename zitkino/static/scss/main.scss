@@ -3,6 +3,7 @@
 /* Variables *********************************/
 
 $width-maximum: 940px;
+$width-maximum-20: 940px + 20px;
 $width-medium: 500px;
 $width-small: 350px;
 
@@ -66,7 +67,7 @@ body {
     width: 98%;
     margin: 0 auto;
 
-    @media (min-width: $width-maximum + 20px) {
+    @media (min-width: $width-maximum-20) {
         & {
             width: $width-maximum;
         }
